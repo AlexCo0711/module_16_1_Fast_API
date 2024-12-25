@@ -1,5 +1,7 @@
+# Домашнее задание по теме "Основы Fast Api и маршрутизация"
+
+# импорт библиотеки FastAPI
 from fastapi import FastAPI
-from pydantic import BaseModel
 
 # Создано приложение(объект) FastAPI
 app = FastAPI()
