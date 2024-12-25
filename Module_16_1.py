@@ -6,7 +6,7 @@ from fastapi import FastAPI
 # Создано приложение(объект) FastAPI
 app = FastAPI()
 
-# Создан декоратор маршрута к главной странице - "/"
+# Создан декоратор маршрута к главной странице
 @app.get("/")
 async def get_p_main() -> dict:
     return {'message': 'Главная страница'}
