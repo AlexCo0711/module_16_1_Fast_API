@@ -24,5 +24,4 @@ async def get_p_user_id(user_id: int) -> dict:
 # Создан декоратор маршрута к страницам пользователей передавая данные в адресной строке
 @app.get("/user")
 async def get_p_data_user(username: str, age: int) -> dict:
-    return {'message':
-            f'Информация о пользователе. Имя: {username}, Возраст: {age}'}
+    return {'message':f'Информация о пользователе. Имя: {username}, Возраст: {age}'}
