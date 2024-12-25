@@ -19,7 +19,7 @@ async def get_p_admin() -> dict:
 # Создан декоратор маршрута к страницам пользователей используя параметр в пути
 @app.get("/user/{user_id}")
 async def get_p_user_id(user_id: int) -> dict:
-    return {'message': f'Вы вошли как пользователь № {user_id}'}
+    return {'message': f'Вы вошли как пользователь №{user_id}'}
 
 # Создан декоратор маршрута к страницам пользователей передавая данные в адресной строке
 @app.get("/user")
